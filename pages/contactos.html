@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contactos</title>
+    
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/up.png" alt="">
+            <nav>
+              <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/quienes.html">Quienes Somos</a></li>
+                <li><a href="../pages/cursos.html">Cursos</a></li>
+                <li><a href="../pages/examenesint.html">Examenes</a></li>
+                <li><a href="../pages/contactos.html">Contactos</a></li>
+              </ul>
+            </nav>
+          </div>
+    </header>
+    
+    <div>
+        <h1>Contactos</h1>
+        
+        <hr>
+
+        <h2>Comunicate con nosotros</h2>
+    </div>
+    <section>
+        <form action="enviar.php" method="post" enctype="text/plain">
+            <br>
+            <label for="names">Nombre</label>
+            <input id="names" name="names" type="text" placeholder="Ingrese su nombre" required>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" name="apellido" type="text" placeholder="Ingrese su apellido" required>
+            <br>
+            <br>
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email" placeholder="Ingrese su email" required>
+            <br>
+            <br>
+            <label for="subject">Asunto</label>
+            <br>
+            <textarea name="" id="" cols="20" rows="4" placeholder="Escriba su asunto" required></textarea>
+            <br>
+            <br>
+            <label for="">Dejanos tu mensaje</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Escriba su mensaje" required ></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset" value="Borrar">
+        </form>
+    </section>
+    
+
+    <footer>
+        <marquee behavior="scroll" direction="right">Todos los derechos reservados por copyright</marquee>
+        <div class="redes">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+
+       </div>
+    
+     </footer>
+</body>
+</html>
